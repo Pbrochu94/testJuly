@@ -1,3 +1,124 @@
-body{
-    color:red
+.wholePage
+{
+    margin:0%;
+}
+
+.loginBar
+{
+    display:flex;
+    background-color:rgb(19, 60, 196);
+    width:100%;
+    height:70px;
+    margin:0%;
+}
+
+.toptext
+{
+    padding-top: 25px;
+    color:white;
+}
+.toptext.date
+{
+    padding-left: 10%;
+}
+.toptext#login
+{
+    padding-left: 70%;
+}
+.toptext.signup
+{
+    padding-left:5%;
+}
+
+.titlearea
+{
+    display:flex;
+    height: 300px;
+    background-color: rgb(170, 180, 236);
+}
+
+.middletext
+{
+    padding-top: 125px;
+    padding-left:10%;
+    color:rgb(19, 60, 196);
+    font-size: 20px;
+
+}
+
+.middletext.title
+{
+    font-size: 50px;
+    padding-top: 105px;
+    padding-left:27%;
+}
+
+.socialimg
+{
+    height: 250px;
+    width:400px;
+    padding-left :15%;
+    padding-top:0.5%;
+}
+
+.whitespace, .whitespace2
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allsquare
+{
+    display:flex;
+    height:235px;
+    width:235px;
+    font-size:60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.square5
+{
+    background-color:rgb(185, 140, 226)
+}
+
+.square4
+{
+    background-color:rgb(153, 167, 231)
+}
+
+.square3
+{
+    background-color:rgb(100, 122, 192)
+}
+
+.square2
+{
+    background-color:rgb(223, 110, 116)
+}
+
+.square1
+{
+    background-color:rgb(211, 179, 138)
+}
+
+.bottom
+{
+    display:flex;
+}
+
+.leftbox, .rightbox
+{
+    background-color:rgb(19, 60, 196);
+    color: brown;
+    height:100px;
+    width:160px;
+}
+
+.middlebox
+{
+    width: 1800px;
+    background-color: rgb(170, 180, 236);
 }
